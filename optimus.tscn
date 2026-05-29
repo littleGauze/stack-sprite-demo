@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://l4gjlp8503bg"]
+
+[ext_resource type="Script" uid="uid://ci5gnqh8ctgxm" path="res://optimus.gd" id="1_cl4v2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yqhg8"]
+size = Vector2(22, 22)
+
+[node name="Optimus" type="CharacterBody2D" unique_id=824898876]
+script = ExtResource("1_cl4v2")
+
+[node name="Stack" type="Node2D" parent="." unique_id=907234369]
+position = Vector2(0, 8)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=475589622]
+shape = SubResource("RectangleShape2D_yqhg8")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=672016428]

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c24qwt1sox6hp"]
+
+[ext_resource type="Texture2D" uid="uid://cn7ybdvecrmi4" path="res://Texture/Snowy trees Tilesheet.png" id="1_1m8y5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ipky0"]
+atlas = ExtResource("1_1m8y5")
+region = Rect2(48, 112, 32, 48)
+
+[node name="Tree1" type="Node2D" unique_id=645895247]
+y_sort_enabled = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1848160699]
+texture = SubResource("AtlasTexture_ipky0")
+offset = Vector2(1, -23)
